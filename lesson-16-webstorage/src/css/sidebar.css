@@ -1,0 +1,21 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  z-index: 999;
+  background-color: tomato;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.sidebar.left {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.sidebar.is-open {
+  transform: translateX(0);
+}

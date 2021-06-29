@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><a href="index.html">На главную</a></p>
+    <button type="button" data-open-left-sidebar>Открыть левый</button>
+    <button type="button" data-open-right-sidebar>Открыть правый</button>
+
+    <!-- <button type="button" data-toggle-sidebar>Toggle</button> -->
+
+    <div class="sidebar" id="my-sidebar">
+      <button type="button" data-close-right-sidebar>Закрыть</button>
+    </div>
+
+    <div class="sidebar left" id="left-sidebar">
+      <button type="button" data-close-left-sidebar>Закрыть</button>
+    </div>
+
+    <script src="js/sidebar.js"></script>
+  </body>
+</html>
